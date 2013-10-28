@@ -177,6 +177,8 @@ Which selector is referenced in this step.
 * Type: *jQuery Object*
 * no default
 
+Note: If the element is not present in the DOM when the trip is started (it is injected into the HTML, for example), simply use a string, such as `'.my-button'`
+
 ### content *Required*
 What information that you want to show to users.
 
